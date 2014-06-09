@@ -1,10 +1,7 @@
 package O.ToTable;
 
-//import java.util.ArrayList;
 import java.util.ListIterator;
 import javax.swing.table.DefaultTableModel;
-
-//import M.ButtonAlgorithmConv.PointToStringConverter;
 import O.GUI.AkupunFrame;
 
 public class ToTable {

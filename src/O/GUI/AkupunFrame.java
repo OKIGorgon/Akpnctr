@@ -32,15 +32,6 @@ import javax.swing.table.DefaultTableModel;
 import M.ButtonAlgorithmConv.DateToStringConverter;
 import M.ButtonAlgorithmConv.PointToStringConverter;
 import O.ToTable.ToTable;
-//import javax.swing.JTextField;
-//import javax.swing.SwingConstants;
-//import javax.swing.JTextArea;
-//import javax.swing.SpinnerDateModel;
-//import java.util.Date;
-//import org.eclipse.wb.swing.FocusTraversalOnArray;
-//import java.awt.Component;
-//import javax.swing.JToolBar;
-//import javax.swing.JScrollBar;
 
 public class AkupunFrame extends JFrame {
 
