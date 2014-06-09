@@ -36,17 +36,25 @@ public class Date {
 	}
 
 	public boolean notLarger(Date Dat) {
-		if (this.year < Dat.year
-				|| (this.year == Dat.year && (this.month < Dat.month || (this.month == Dat.month && this.day <= Dat.day)))) {
+		//if (this.year < Dat.year
+		//		|| (this.year == Dat.year && (this.month < Dat.month || (this.month == Dat.month && this.day <= Dat.day)))) {
+		//	return true;
+		//} else {
+		//	return false;
+		//}
+		
+		if(this.year<Dat.year)
 			return true;
-		} else {
+		if(this.year>Dat.year)
 			return false;
-		}
-		/*
-		 * if(this.year<Dat.year) return true; if(this.year>Dat.year) return
-		 * false; if(this.month<Dat.month) return true; if(this.month>Dat.month)
-		 * return false; if(this.day<=Dat.day) return true; else return false;
-		 */
+		if(this.month<Dat.month)
+			return true;
+		if(this.month>Dat.month)
+			return false;
+		if(this.day<=Dat.day)
+			return true;
+		else return false;
+		
 
 	}
 
